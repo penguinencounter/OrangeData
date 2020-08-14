@@ -1,0 +1,3 @@
+[submodule "sampledata/origin"]
+	path = sampledata/origin
+	url = https://github.com/wfdoran/Orange.git

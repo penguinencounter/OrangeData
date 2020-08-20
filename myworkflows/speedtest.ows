@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="File" qualified_name="Orange.widgets.data.owfile.OWFile" project_name="Orange3" version="" title="File" position="(-134.0, 78.0)" />
+		<node id="1" name="Scatter Plot" qualified_name="Orange.widgets.visualize.owscatterplot.OWScatterPlot" project_name="Orange3" version="" title="Scatter Plot" position="(-28.0, 246.0)" />
+		<node id="2" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Data Table" position="(69.0, 127.0)" />
+		<node id="3" name="Python Script" qualified_name="Orange.widgets.data.owpythonscript.OWPythonScript" project_name="Orange3" version="" title="Timer Start" position="(-10.0, -3.0)" />
+		<node id="4" name="Python Script" qualified_name="Orange.widgets.data.owpythonscript.OWPythonScript" project_name="Orange3" version="" title="Timer End" position="(674.0, 238.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" />
+		<link id="1" source_node_id="1" sink_node_id="2" source_channel="Selected Data" sink_channel="Data" enabled="true" />
+		<link id="2" source_node_id="0" sink_node_id="3" source_channel="Data" sink_channel="Data" enabled="true" />
+		<link id="3" source_node_id="2" sink_node_id="4" source_channel="Data" sink_channel="Data" enabled="true" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="pickle">gASVrwYAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAxyZWNlbnRfcGF0aHOUXZQojB5v
+cmFuZ2V3aWRnZXQudXRpbHMuZmlsZWRpYWxvZ3OUjApSZWNlbnRQYXRolJOUKYGUfZQojAdhYnNw
+YXRolIxDQzovVXNlcnMvTWlsZXMvYW5hY29uZGEzL0xpYi9zaXRlLXBhY2thZ2VzL09yYW5nZS9k
+YXRhc2V0cy9pcmlzLnRhYpSMBnByZWZpeJSMD3NhbXBsZS1kYXRhc2V0c5SMB3JlbHBhdGiUjAhp
+cmlzLnRhYpSMBXRpdGxllIwAlIwFc2hlZXSUaBCMC2ZpbGVfZm9ybWF0lE51YmgGKYGUfZQoaAmM
+IUM6L1VzZXJzL01pbGVzL0RvY3VtZW50cy9wZXRzLnR4dJRoC05oDU5oD2gQaBFoEGgSTnViaAYp
+gZR9lChoCYxGQzovVXNlcnMvTWlsZXMvYW5hY29uZGEzL0xpYi9zaXRlLXBhY2thZ2VzL09yYW5n
+ZS9kYXRhc2V0cy90aXRhbmljLnRhYpRoC2gMaA2MC3RpdGFuaWMudGFilGgPaBBoEWgQaBJOdWJo
+BimBlH2UKGgJjEZDOi9Vc2Vycy9NaWxlcy9hbmFjb25kYTMvTGliL3NpdGUtcGFja2FnZXMvT3Jh
+bmdlL2RhdGFzZXRzL2hvdXNpbmcudGFilGgLaAxoDYwLaG91c2luZy50YWKUaA9oEGgRaBBoEk51
+YmgGKYGUfZQoaAmMTEM6L1VzZXJzL01pbGVzL2FuYWNvbmRhMy9MaWIvc2l0ZS1wYWNrYWdlcy9P
+cmFuZ2UvZGF0YXNldHMvaGVhcnRfZGlzZWFzZS50YWKUaAtoDGgNjBFoZWFydF9kaXNlYXNlLnRh
+YpRoD2gQaBFoEGgSTnViaAYpgZR9lChoCYxNQzovVXNlcnMvTWlsZXMvYW5hY29uZGEzL0xpYi9z
+aXRlLXBhY2thZ2VzL09yYW5nZS9kYXRhc2V0cy9icm93bi1zZWxlY3RlZC50YWKUaAtoDGgNjBJi
+cm93bi1zZWxlY3RlZC50YWKUaA9oEGgRaBBoEk51YmgGKYGUfZQoaAmMQkM6L1VzZXJzL01pbGVz
+L2FuYWNvbmRhMy9MaWIvc2l0ZS1wYWNrYWdlcy9PcmFuZ2UvZGF0YXNldHMvem9vLnRhYpRoC2gM
+aA2MB3pvby50YWKUaA9oEGgRaBBoEk51YmWMC3JlY2VudF91cmxzlF2UKIwVaHR0cDovL2JpdC5s
+eS9wZXRzdGFilIwVaHR0cDovL2JpdC5seS9wZXRzdGFilIwgaHR0cHM6Ly9iaXQubHkvb3Jhbmdl
+M2xlc3NvbjR0YWKUZYwTc2F2ZWRXaWRnZXRHZW9tZXRyeZRDMgHZ0MsAAgAAAAAD8wAAAJ8AAAZa
+AAAC7AAAA/sAAAC+AAAGUgAAAuQAAAAAAAAAAAeAlIwLc2hlZXRfbmFtZXOUfZSMBnNvdXJjZZRL
+AIwDdXJslGgQjA1kb21haW5fZWRpdG9ylH2UjAtfX3ZlcnNpb25fX5RLAYwQY29udGV4dF9zZXR0
+aW5nc5RdlIwVb3Jhbmdld2lkZ2V0LnNldHRpbmdzlIwHQ29udGV4dJSTlCmBlH2UKIwGdmFsdWVz
+lH2UKIwJdmFyaWFibGVzlF2UaDV9lGhBXZQoXZQojAxzZXBhbCBsZW5ndGiUjBRPcmFuZ2UuZGF0
+YS52YXJpYWJsZZSMEkNvbnRpbnVvdXNWYXJpYWJsZZSTlEsAaBCIZV2UKIwLc2VwYWwgd2lkdGiU
+aElLAGgQiGVdlCiMDHBldGFsIGxlbmd0aJRoSUsAaBCIZV2UKIwLcGV0YWwgd2lkdGiUaElLAGgQ
+iGVdlCiMBGlyaXOUaEeMEERpc2NyZXRlVmFyaWFibGWUk5RLAYwsSXJpcy1zZXRvc2EsIElyaXMt
+dmVyc2ljb2xvciwgSXJpcy12aXJnaW5pY2GUiWVlc2g3SwF1jAphdHRyaWJ1dGVzlCiMDHNlcGFs
+IGxlbmd0aJRLAoaUjAtzZXBhbCB3aWR0aJRLAoaUjAxwZXRhbCBsZW5ndGiUSwKGlIwLcGV0YWwg
+d2lkdGiUSwKGlHSUjAVtZXRhc5QpjApjbGFzc192YXJzlIwEaXJpc5RdlCiMC0lyaXMtc2V0b3Nh
+lIwPSXJpcy12ZXJzaWNvbG9ylIwOSXJpcy12aXJnaW5pY2GUZYaUhZSMEm1vZGlmaWVkX3Zhcmlh
+Ymxlc5RdlHViYXUu
+</properties>
+		<properties node_id="1" format="pickle">gASV0QoAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMC2F1dG9fc2FtcGxllIiMEmNvbnRyb2xBcmVh
+VmlzaWJsZZSIjBNzYXZlZFdpZGdldEdlb21ldHJ5lEMyAdnQywACAAAAAAIIAAAA6QAABT8AAAMt
+AAACEAAAAQgAAAU3AAADJQAAAAAAAAAAB4CUjAlzZWxlY3Rpb26UTowRdG9vbHRpcF9zaG93c19h
+bGyUiIwFZ3JhcGiUfZQojAthbHBoYV92YWx1ZZRLgIwNY2xhc3NfZGVuc2l0eZSJjAtqaXR0ZXJf
+c2l6ZZRLAIwTbGFiZWxfb25seV9zZWxlY3RlZJSJjBZvcnRob25vcm1hbF9yZWdyZXNzaW9ulImM
+C3BvaW50X3dpZHRolEsKjAlzaG93X2dyaWSUiYwLc2hvd19sZWdlbmSUiIwNc2hvd19yZWdfbGlu
+ZZSJdYwLX192ZXJzaW9uX1+USwSMEGNvbnRleHRfc2V0dGluZ3OUXZQojBVvcmFuZ2V3aWRnZXQu
+c2V0dGluZ3OUjAdDb250ZXh0lJOUKYGUfZQojAZ2YWx1ZXOUfZQojAphdHRyX2NvbG9ylIwEaXJp
+c5RLZYaUjAphdHRyX2xhYmVslE5K/v///4aUjAphdHRyX3NoYXBllE5K/v///4aUjAlhdHRyX3Np
+emWUTkr+////hpSMBmF0dHJfeJSMDHBldGFsIGxlbmd0aJRLZoaUjAZhdHRyX3mUjAtwZXRhbCB3
+aWR0aJRLZoaUaAh9lGgTSwR1jAphdHRyaWJ1dGVzlH2UKIwMc2VwYWwgbGVuZ3RolEsCjAtzZXBh
+bCB3aWR0aJRLAmgnSwJoKksCaB5LAXWMBW1ldGFzlH2UdWJoGCmBlH2UKGgbfZQoaB2MBGlyaXOU
+S2WGlGggTkr+////hpRoIk5K/v///4aUaCROSv7///+GlGgmjAxwZXRhbCBsZW5ndGiUS2aGlGgp
+jAtwZXRhbCB3aWR0aJRLZoaUaAh9lGgTSwR1aC19lCiMDHNlcGFsIGxlbmd0aJRLAowLc2VwYWwg
+d2lkdGiUSwJoO0sCaD1LAmg2SwF1aDF9lHViaBgpgZR9lChoG32UKGgdjARpcmlzlEtlhpRoIE5K
+/v///4aUaCJOSv7///+GlGgkTkr+////hpRoJowMcGV0YWwgbGVuZ3RolEtmhpRoKYwLcGV0YWwg
+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
+</properties>
+		<properties node_id="2" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x02\x86\x00\x00\x00F\x00\x00\x05\xb5\x00\x00\x02`\x00\x00\x02\x8e\x00\x00\x00e\x00\x00\x05\xad\x00\x00\x02X\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80', 'select_rows': True, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 1}</properties>
+		<properties node_id="3" format="literal">{'controlAreaVisible': True, 'currentScriptIndex': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x02(\x00\x00\x00\xd1\x00\x00\x05W\x00\x00\x03O\x00\x00\x020\x00\x00\x00\xf0\x00\x00\x05O\x00\x00\x03G\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80', 'scriptLibrary': [{'name': 'starttimer', 'script': 'import time\nprint("&gt;&gt; start_timer()")\ntempfile = open(".orangepytimer.temp","w")\ntempfile.write(f"{time.time()}")\ntempfile.close()\nprint("&lt;&lt; timer started")\n', 'filename': None}], 'scriptText': 'import time\nprint("&gt;&gt; start_timer()")\ntempfile = open(".orangepytimer.temp","w")\ntempfile.write(f"{time.time()}")\ntempfile.close()\nprint("&lt;&lt; timer started")\n', 'splitterState': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00d\x00\x00\x00d\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', '__version__': 2}</properties>
+		<properties node_id="4" format="literal">{'controlAreaVisible': True, 'currentScriptIndex': 1, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x00I\x00\x00\x00\x8d\x00\x00\x03x\x00\x00\x03\x0b\x00\x00\x00Q\x00\x00\x00\xac\x00\x00\x03p\x00\x00\x03\x03\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80', 'scriptLibrary': [{'name': 'starttimer', 'script': 'import time\ntempfile = open(".orangepytimer.temp","w")\ntempfile.write(f"{time.time()}")\ntempfile.close()\nprint("timer started")\n', 'filename': None}, {'name': 'stoptimer', 'script': 'import time\ntry:\n    newtime = time.time()\n    tempfile = open(".orangepytimer.temp","r")\n    oldtime = float(tempfile.read())\n    tempfile.close()\n    print("&gt;&gt; stop_timer()")\n    print(f"&lt;&lt; {round(newtime-oldtime,2)}s")\n    tempfile = open(".orangepytimer.temp","w")\n    tempfile.close()\nexcept:\n    print("&gt;&gt; stop_timer()")\n    print("&lt;&lt; error - timer not started")', 'filename': None}], 'scriptText': 'import time\ntry:\n    newtime = time.time()\n    tempfile = open(".orangepytimer.temp","r")\n    oldtime = float(tempfile.read())\n    tempfile.close()\n    print("&gt;&gt; stop_timer()")\n    print(f"&lt;&lt; {round(newtime-oldtime,2)}s")\n    tempfile = open(".orangepytimer.temp","w")\n    tempfile.close()\nexcept:\n    print("&gt;&gt; stop_timer()")\n    print("&lt;&lt; error - timer not started")', 'splitterState': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00d\x00\x00\x00d\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', '__version__': 2}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
